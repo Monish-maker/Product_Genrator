@@ -67,6 +67,7 @@ print(description)
 A high-performance laptop designed for professionals with a sleek design and powerful specs.
 
 💾 Save & Load Model
+
 Save:
 
 generator.save_model("./fine_tuned_t5_model")
