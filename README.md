@@ -61,13 +61,16 @@ test_keywords = "laptop, high performance, sleek design"
 
 description = generator.generate_description(test_title, test_keywords)
 print(description)
+
 🖨️ Output:
 
 A high-performance laptop designed for professionals with a sleek design and powerful specs.
+
 💾 Save & Load Model
 Save:
 
 generator.save_model("./fine_tuned_t5_model")
+
 Load later:
 
 from transformers import TFAutoModelForSeq2SeqLM, AutoTokenizer
